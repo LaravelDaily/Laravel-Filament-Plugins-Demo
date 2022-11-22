@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea764e923e824ed7b6fb872a4f427afc",
+    "content-hash": "0ed708ada43e77140d4882e5c243cabd",
     "packages": [
         {
             "name": "akaunting/laravel-money",
@@ -3790,6 +3790,97 @@
             "time": "2022-07-05T09:31:00+00:00"
         },
         {
+            "name": "spatie/laravel-activitylog",
+            "version": "4.7.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-activitylog.git",
+                "reference": "eee61436e2984119fd71fc338a45ec7d68e3b548"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-activitylog/zipball/eee61436e2984119fd71fc338a45ec7d68e3b548",
+                "reference": "eee61436e2984119fd71fc338a45ec7d68e3b548",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/config": "^8.0 || ^9.0",
+                "illuminate/database": "^8.69 || ^9.27",
+                "illuminate/support": "^8.0 || ^9.0",
+                "php": "^8.0",
+                "spatie/laravel-package-tools": "^1.6.3"
+            },
+            "require-dev": {
+                "ext-json": "*",
+                "orchestra/testbench": "^6.23 || ^7.0",
+                "pestphp/pest": "^1.20"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Activitylog\\ActivitylogServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "src/helpers.php"
+                ],
+                "psr-4": {
+                    "Spatie\\Activitylog\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Sebastian De Deyne",
+                    "email": "sebastian@spatie.be",
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Tom Witkowski",
+                    "email": "dev.gummibeer@gmail.com",
+                    "homepage": "https://gummibeer.de",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A very simple activity logger to monitor the users of your website or application",
+            "homepage": "https://github.com/spatie/activitylog",
+            "keywords": [
+                "activity",
+                "laravel",
+                "log",
+                "spatie",
+                "user"
+            ],
+            "support": {
+                "issues": "https://github.com/spatie/laravel-activitylog/issues",
+                "source": "https://github.com/spatie/laravel-activitylog/tree/4.7.2"
+            },
+            "funding": [
+                {
+                    "url": "https://spatie.be/open-source/support-us",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/spatie",
+                    "type": "github"
+                }
+            ],
+            "time": "2022-11-14T12:16:46+00:00"
+        },
+        {
             "name": "spatie/laravel-package-tools",
             "version": "1.13.7",
             "source": {
@@ -6426,6 +6517,80 @@
                 "source": "https://github.com/webmozarts/assert/tree/1.11.0"
             },
             "time": "2022-06-03T18:03:27+00:00"
+        },
+        {
+            "name": "z3d0x/filament-logger",
+            "version": "v0.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Z3d0X/filament-logger.git",
+                "reference": "bd7e7c43607baf1c60ac6c9a8c5f018def815222"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Z3d0X/filament-logger/zipball/bd7e7c43607baf1c60ac6c9a8c5f018def815222",
+                "reference": "bd7e7c43607baf1c60ac6c9a8c5f018def815222",
+                "shasum": ""
+            },
+            "require": {
+                "filament/filament": "^2.11",
+                "illuminate/contracts": "^8.0 | ^9.0",
+                "php": "^8.0 | ^8.1",
+                "spatie/laravel-activitylog": "^4.5",
+                "spatie/laravel-package-tools": "^1.13.5"
+            },
+            "require-dev": {
+                "nunomaduro/collision": "^6.0",
+                "nunomaduro/larastan": "^2.0.1",
+                "orchestra/testbench": "^7.0",
+                "pestphp/pest": "^1.21",
+                "pestphp/pest-plugin-laravel": "^1.1",
+                "phpstan/extension-installer": "^1.1",
+                "phpstan/phpstan-deprecation-rules": "^1.0",
+                "phpstan/phpstan-phpunit": "^1.0",
+                "phpunit/phpunit": "^9.5",
+                "spatie/laravel-ray": "^1.26"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Z3d0X\\FilamentLogger\\FilamentLoggerServiceProvider"
+                    ],
+                    "aliases": {
+                        "FilamentLogger": "Z3d0X\\FilamentLogger\\Facades\\FilamentLogger"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Z3d0X\\FilamentLogger\\": "src",
+                    "Z3d0X\\FilamentLogger\\Database\\Factories\\": "database/factories"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ziyaan Hassan",
+                    "email": "ziyaan2010@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Activity logger for filament",
+            "homepage": "https://github.com/z3d0x/filament-logger",
+            "keywords": [
+                "Z3d0X",
+                "filament-logger",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/Z3d0X/filament-logger/issues",
+                "source": "https://github.com/Z3d0X/filament-logger/tree/v0.4.1"
+            },
+            "time": "2022-11-13T18:20:32+00:00"
         }
     ],
     "packages-dev": [
