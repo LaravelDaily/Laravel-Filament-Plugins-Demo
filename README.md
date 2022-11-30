@@ -1,9 +1,11 @@
-Šitam pirmiausia geriausia susikurti resources kokių reikia, tada instaliuoti package ir leisti `artisan shield:install`.
+## Filament Shield
 
-Taip sukurs visus policy tiems resource. Padariau čia paprastą User resource, kad patogu būtų sukurti useri ir jam duoti rolę.
+The easiest and most intuitive way to add access management to your Filament Admin:
+- Resources
+- Pages
+- Widgets
+- Custom Permissions
 
-Pvz. prie post paprastam gali nuimti viską delete ir tik admin galės trinti.
+![image](https://user-images.githubusercontent.com/11015977/204795587-45af0c57-26a8-416b-9650-ed0582aa40a4.png)
 
-Jeigu eigoje prireikia naujų resource tai paleidus `shield:generate` sukurs policies per naują. Arba su [opcijom](https://github.com/bezhanSalleh/filament-shield#shieldgenerate) kurti tik ką reikia.
-
-Pabaigus galima susigeneruoti seedus `shield:seeder`
+[Link to the official documentation](https://github.com/bezhanSalleh/filament-shield)
