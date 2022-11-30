@@ -1,5 +1,5 @@
-Šita, kad matytum kaip navigation gaunasi paleisk tiesiai sql insert po migracijų ir sukurs navigation. Matysi tada kaip admine jis atrodo, ir simple tree home page bus.
+## Filament Navigation
 
-```sql
-INSERT INTO `navigations` (`id`, `name`, `handle`, `items`, `created_at`, `updated_at`) VALUES ('4', 'Main navigation', 'main-navigation', '{"160025c6-f1cf-4ac2-888b-599748882d03":{"label":"Laravel Daily","type":"external-link","data":{"url":"https:\\/\\/laraveldaily.com","target":null},"children":[]},"a426c3ff-60ec-4a78-b2c3-67ca9bb8257e":{"label":"Socials","type":null,"data":null,"children":{"ca63557d-b92c-4a5c-936a-ebe58ffa8d4e":{"label":"Twitter","type":"external-link","data":{"url":"https:\\/\\/twitter.com\\/dailylaravel","target":"_blank"},"children":[]},"3646bb39-5e7b-40d4-8670-582b8584dd61":{"label":"YouTube","type":"external-link","data":{"url":"https:\\/\\/www.youtube.com\\/c\\/LaravelDaily","target":"_blank"},"children":[]},"72e143f5-285a-4037-a188-0f72970a71ed":{"label":"GitHub","type":"external-link","data":{"url":"https:\\/\\/github.com\\/LaravelDaily","target":"_blank"},"children":[]}}}}', '2022-11-22 14:22:14', '2022-11-22 14:22:34');
-```
+![image](https://user-images.githubusercontent.com/11015977/204795362-cc59cdac-3d56-40c1-bdbb-d2443c1421b7.png)
+
+[The GitHub repository can be found here.](https://github.com/ryangjchandler/filament-navigation)
