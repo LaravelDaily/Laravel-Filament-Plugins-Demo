@@ -1,3 +1,7 @@
-Viskas labai paprasta, install ir veikia. Kalbas pridėti galima confige.
+## Filament Language Switch
 
-_P.S. Lietuvių kalbos pr aš padaręs jiems :smile: _
+Zero config Language Switch(Changer/Localizer) plugin for Filamentphp Admin.
+
+![image](https://user-images.githubusercontent.com/11015977/204795197-bde330af-69ab-4d07-845d-2c86094c5b9f.png)
+
+[The GitHub repository can be found here.](https://github.com/bezhanSalleh/filament-language-switch)
